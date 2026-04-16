@@ -27,7 +27,7 @@ public class InventoryServicesImp implements InventoryServices {
         if (inventory.isEmpty()) {
             System.out.println("Inventory is Empty");
         } else {
-            System.out.println("----------------------------- Grocery Inventory ----------------------------");
+            System.out.println("-------------------------- Grocery Inventory -------------------------");
             for (GroceryItem item : inventory) {
                 item.display();
             }
