@@ -41,10 +41,7 @@ class MyArrayList{
 					count++;
 					n=delete(j,arr,n);
 					n--;
-					
-					
 				}
-				
 			}
 		}
 		System.out.println(count);
@@ -108,9 +105,6 @@ System.out.println(v);
 }
 
 */
-
-
-
 //vector -> stack
 /*
 
