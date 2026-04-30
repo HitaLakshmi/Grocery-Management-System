@@ -31,8 +31,7 @@ class MyArrayList{
 		System.out.println("Enter elements");
 		int arr[] = new int[n];
 		for(int i=0;i<n;i++){
-			arr[i]=sc.nextInt();
-			
+			arr[i]=sc.nextInt();	
 		}
 		int count=0;
 		for(int i =0;i<n-1;i++){
@@ -47,9 +46,7 @@ class MyArrayList{
 		System.out.println(count);
 		//for(int i=0;i<arr.length;i++){
 			//System.out.println(arr[i]);
-		
 		//}
-		
 	}
 	public static int delete(int index,int arr[],int n){
 		for (int i = index; i < n- 1; i++) {
