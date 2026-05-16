@@ -17,9 +17,7 @@ class MyArrayList{
     }
 
 }
-
 */
-
 // counting duplicates in array
 /*
 import java.util.Scanner;
