@@ -15,7 +15,6 @@ class MyArrayList{
 		System.out.println(al.contains("hita"));
 		System.out.println(al);
     }
-
 }
 */
 // counting duplicates in array
