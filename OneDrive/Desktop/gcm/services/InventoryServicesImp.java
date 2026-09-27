@@ -11,9 +11,9 @@ import java.util.List;
 public class InventoryServicesImp implements InventoryServices {
     private List<GroceryItem> inventory;
 
-    // Constructor to initialize the list
+    // Constructor to initialize the list of items
     public InventoryServicesImp() {
-        this.inventory = (List<GroceryItem>) new ArrayList<GroceryItem>();
+        this.inventory = new ArrayList<GroceryItem>();
     }
 
     @Override
